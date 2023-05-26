@@ -21,13 +21,9 @@ In this tutorial, you’ll learn how to:
 
 Follow the full tutorial to [Build This Project with Python](https://realpython.com/pandas-project-gradebook/)
 
-## Requirements
-
-To run this you need a modern installation of [Python](https://www.python.org/) >= 3.6.
-
 ## Installation
 
-1. Create a Python virtual environment
+Create a Python virtual environment
 
 OS X & Linux:
 
@@ -61,20 +57,15 @@ $
 ## Run the project
 
 ```sh
-WIP
+python gradebook.py
 ```
 
-## Usage example
+## View jupyter notebook gradebook_notebook.ipynb
 
-WIP
+```sh
+jupyter notebook
 
-## Development setup
-
-WIP
-
-## Release History (this repo)
-
-WIP
+```
 
 
 ## Contributing to this repo
