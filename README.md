@@ -13,14 +13,27 @@ One problem with using a spreadsheet is that it can be hard to see when you make
 
 In this tutorial, you’ll learn how to:
 
-- Load and merge data from multiple sources with pandas
+- Load, clean(simple clean), and merge data from multiple sources with pandas
 
 - Filter and group data in a pandas DataFrame
+- map values from one set to another
 
 - Calculate and plot grades in a pandas DataFrame
 
 Follow the full tutorial to [Build This Project with Python](https://realpython.com/pandas-project-gradebook/)
 
+## Final results
+
+You get 3 graphics, and a resulting file "Section x Grades.csv" for each section
+
+
+## Files
+
+On data folder you will see the original data. The resulting files will be written on this path too.
+
+On 'other' folder you get the final code divided on steps.
+
+Also, there, is 'generate_data.py'. With this file you can generate more example files.
 ## Installation
 
 Create a Python virtual environment
