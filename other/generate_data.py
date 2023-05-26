@@ -1,13 +1,14 @@
 """Generate random data for the project."""
-from dataclasses import dataclass, field, asdict
-from typing import Optional
-from random import choice, seed as py_rand_seed
+from dataclasses import asdict, dataclass, field
 from pathlib import Path
+from random import choice
+from random import seed as py_rand_seed
+from typing import Optional
 
 import numpy as np
-from faker import Faker
 import pandas as pd
 from dateutil import parser, rrule
+from faker import Faker
 
 fake = Faker()
 
@@ -172,7 +173,7 @@ df = pd.concat(
             columns=[f"Exam {n}" for n in range(1, n_exams + 1)],
         ),
         pd.DataFrame(
-            np.ones((len(students), n_exams), dtype=np.int) * 100,
+            np.ones((len(students), n_exams), dtype=int) * 100,
             columns=[f"Exam {n} - Max Points" for n in range(1, n_exams + 1)],
         ),
         pd.DataFrame(

@@ -34,6 +34,10 @@ On data folder you will see the original data. The resulting files will be writt
 On 'other' folder you get the final code divided on steps.
 
 Also, there, is 'generate_data.py'. With this file you can generate more example files.
+```sh
+$ python generate_data.py
+```
+
 ## Installation
 
 Create a Python virtual environment
